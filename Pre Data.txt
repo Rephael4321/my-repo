@@ -1,0 +1,35 @@
+entries.append(Person(101, "Rephael", 27))
+entries.append(Person(102, "Nadav", 36))
+entries.append(Person(103, "Sapir", 24))
+entries.append(Person(104, "Jane", 21))
+entries.append(Person(105, "Goliath", 32))
+entries.append(Person(106, "David", 70))
+entries.append(Person(107, "Trump", 72))
+entries.append(Student(108, "Alex", 29, "Math", 2, 89))
+entries.append(Student(109, "James", 31, "Physics", 3, 79))
+entries.append(Employee(110, "Galit", 42, "Dentist", 32000))
+entries.append(Employee(111, "Sean", 39, "Register", 7500))
+
+ids_to_indices[101] = 0
+ids_to_indices[102] = 1
+ids_to_indices[103] = 2
+ids_to_indices[104] = 3
+ids_to_indices[105] = 4
+ids_to_indices[106] = 5
+ids_to_indices[107] = 6
+ids_to_indices[108] = 7
+ids_to_indices[109] = 8
+ids_to_indices[110] = 9
+ids_to_indices[111] = 10
+
+ages_sum += 27
+ages_sum += 36
+ages_sum += 24
+ages_sum += 21
+ages_sum += 32
+ages_sum += 70
+ages_sum += 72
+ages_sum += 29
+ages_sum += 31
+ages_sum += 41
+ages_sum += 39
