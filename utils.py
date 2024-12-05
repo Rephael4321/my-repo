@@ -1,5 +1,5 @@
 def isDigit(num_value: int, num_name: str) -> bool:
-    print("bye 222")
+    print("bye 222 111")
     print("hello")
     if num_value.isdigit():
         return True
