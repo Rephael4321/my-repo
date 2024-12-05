@@ -182,6 +182,7 @@ entries.append(Student(109, "James", 31, "Physics", 3, 79))
 entries.append(Employee(110, "Galit", 42, "Dentist", 32000))
 entries.append(Employee(111, "Sean", 39, "Register", 7500))
 entries.append(Employee(111, "Alma", 27, "Doctor", 14500))
+entries.append(Employee(111, "Judah", 44, "King", 8150000))
 entries.append(Employee(111, "Hilah", 18, "Cashier", 5800))
 
 ids_to_indices[101] = 0
@@ -198,6 +199,7 @@ ids_to_indices[111] = 10
 ids_to_indices[112] = 11
 ids_to_indices[113] = 12
 
+
 ages_sum += 27
 ages_sum += 36
 ages_sum += 24
@@ -210,6 +212,7 @@ ages_sum += 31
 ages_sum += 41
 ages_sum += 39
 ages_sum += 27
+ages_sum += 44
 ages_sum += 18
 
 while True:
